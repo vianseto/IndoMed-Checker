@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indo-med-checker"
+version = "0.1.0"
+description = "Pembacaan OCR pada label obat, pencocokan referensi, peninjauan interaksi (tahap awal)"
+readme = "README.md"
+requires-python = ">=3.10"
+
